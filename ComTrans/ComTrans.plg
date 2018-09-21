@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ComTrans - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ComTrans.res" /d "_DEBUG" /d "_AFXDLL" "D:\CCode\ComTrans\ComTrans.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPEF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ComTrans.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\CCode\ComTrans\ComTrans.cpp"
+"D:\CCode\ComTrans\ComTransDlg.cpp"
+"D:\CCode\ComTrans\mscomm.cpp"
+"D:\CCode\ComTrans\MyCom.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPEF.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ComTrans.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\CCode\ComTrans\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF0.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF1.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ComTrans.pdb" /debug /machine:I386 /out:"Debug/ComTrans.exe" /pdbtype:sept 
+.\Debug\ComTrans.obj
+.\Debug\ComTransDlg.obj
+.\Debug\mscomm.obj
+.\Debug\MyCom.obj
+.\Debug\StdAfx.obj
+.\Debug\ComTrans.res
+.\Pcomm.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF1.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ComTrans.cpp
+ComTransDlg.cpp
+mscomm.cpp
+MyCom.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/ComTrans.bsc"  .\Debug\StdAfx.sbr .\Debug\ComTrans.sbr .\Debug\ComTransDlg.sbr .\Debug\mscomm.sbr .\Debug\MyCom.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ComTrans.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
